@@ -16,6 +16,13 @@
 |
 */
 $config['supported_languages'] = array(
+    'tr' => array(
+        'name'        => 'Türkçe',
+        'folder'    => 'turkish',
+        'direction'    => 'ltr',
+        'codes'        => array('tr', 'turkish', 'tr_TR'),
+        'ckeditor'    => NULL
+    ),
     'en' => array(
         'name'        => 'English',
         'folder'    => 'english',
@@ -189,4 +196,4 @@ $config['supported_languages'] = array(
 |    en
 |
 */
-$config['default_language'] = 'en';
+$config['default_language'] = 'tr';
