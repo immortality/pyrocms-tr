@@ -1,20 +1,20 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 // labels
-$lang['cat_category_label']         = 'Category';
+$lang['cat_category_label']         = 'Kategori';
 
 // titles
-$lang['cat_create_title']           = 'Add Category';
-$lang['cat_edit_title']             = 'Edit category "%s"';
-$lang['cat_list_title']             = 'Categories';
+$lang['cat_create_title']           = 'Kategori Ekle';
+$lang['cat_edit_title']             = 'Kategori Düzenle "%s"';
+$lang['cat_list_title']             = 'Kategoriler';
 
 // messages
-$lang['cat_no_categories']          = 'There are no categories.';
-$lang['cat_add_success']            = 'Your category has been saved.';
-$lang['cat_add_error']              = 'An error occurred.';
-$lang['cat_edit_success']           = 'The category was saved.';
-$lang['cat_edit_error']             = 'An error occurred.';
-$lang['cat_mass_delete_error']      = 'Error occurred while trying to delete category "%s".';
-$lang['cat_mass_delete_success']    = '%s categories out of %s successfully deleted.';
-$lang['cat_no_select_error']        = 'You need to select categories first.';
-$lang['cat_already_exist_error']    = 'A category with the name "%s" already exists.';
+$lang['cat_no_categories']          = 'Hiçbir kategori yok.';
+$lang['cat_add_success']            = 'Kategoriniz kaydedildi.';
+$lang['cat_add_error']              = 'Bir hata oluştu.';
+$lang['cat_edit_success']           = 'Kategori kaydedildi.';
+$lang['cat_edit_error']             = 'Bir hata oluştu.';
+$lang['cat_mass_delete_error']      = 'Kategori silinirken bir hata oluştu "%s".';
+$lang['cat_mass_delete_success']    = '%s kategori silindi toplamda %s kategoriden.';
+$lang['cat_no_select_error']        = 'Öncelikle kategorileri seçmelisiniz.';
+$lang['cat_already_exist_error']    = '"%s" adında bir kategori zaten mevcut.';

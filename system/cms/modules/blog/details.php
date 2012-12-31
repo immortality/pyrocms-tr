@@ -14,7 +14,8 @@ class Module_Blog extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Blog',
+                'tr' => 'Blog',
+                'en' => 'Blog',
 				'ar' => 'المدوّنة',
 				'br' => 'Blog',
 				'pt' => 'Blog',
@@ -31,7 +32,8 @@ class Module_Blog extends Module {
             	'se' => 'Blogg',
 			),
 			'description' => array(
-				'en' => 'Post blog entries.',
+                'tr' => 'Standart blog girişleri.',
+                'en' => 'Post blog entries.',
 				'ar' => 'أنشر المقالات على مدوّنتك.',
 				'br' => 'Escrever publicações de blog',
 				'pt' => 'Escrever e editar publicações no blog',

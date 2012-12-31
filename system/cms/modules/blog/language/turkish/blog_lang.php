@@ -1,66 +1,66 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['blog:post']                 = 'Post';
-$lang['blog:posts']                   = 'Posts';
+$lang['blog:post']                 = 'Yazı';
+$lang['blog:posts']                   = 'Yazılar';
 
 // labels
-$lang['blog:posted_label']                   = 'Posted';
-$lang['blog:posted_label_alt']               = 'Posted at';
-$lang['blog:written_by_label']				= 'Written by';
-$lang['blog:author_unknown']				= 'Unknown';
-$lang['blog:keywords_label']				= 'Keywords';
-$lang['blog:tagged_label']					= 'Tagged';
-$lang['blog:category_label']                 = 'Category';
-$lang['blog:post_label']                     = 'Post';
-$lang['blog:date_label']                     = 'Date';
+$lang['blog:posted_label']                   = 'Yayınlanan';
+$lang['blog:posted_label_alt']               = 'Yayınlandı';
+$lang['blog:written_by_label']				= 'Yazar';
+$lang['blog:author_unknown']				= 'Bilinmeyen';
+$lang['blog:keywords_label']				= 'Keyword';
+$lang['blog:tagged_label']					= 'Etiket';
+$lang['blog:category_label']                 = 'Kategori';
+$lang['blog:post_label']                     = 'Yazı';
+$lang['blog:date_label']                     = 'Tarif';
 $lang['blog:date_at']                        = 'at';
-$lang['blog:time_label']                     = 'Time';
-$lang['blog:status_label']                   = 'Status';
-$lang['blog:draft_label']                    = 'Draft';
-$lang['blog:live_label']                     = 'Live';
-$lang['blog:content_label']                  = 'Content';
-$lang['blog:options_label']                  = 'Options';
-$lang['blog:intro_label']                    = 'Introduction';
-$lang['blog:no_category_select_label']       = '-- None --';
-$lang['blog:new_category_label']             = 'Add a category';
-$lang['blog:subscripe_to_rss_label']         = 'Subscribe to RSS';
-$lang['blog:all_posts_label']             = 'All posts';
-$lang['blog:posts_of_category_suffix']    = ' posts';
+$lang['blog:time_label']                     = 'Zaman';
+$lang['blog:status_label']                   = 'Durum';
+$lang['blog:draft_label']                    = 'Taslak';
+$lang['blog:live_label']                     = 'Aktif';
+$lang['blog:content_label']                  = 'İçerik';
+$lang['blog:options_label']                  = 'Ayarlar';
+$lang['blog:intro_label']                    = 'Giriş';
+$lang['blog:no_category_select_label']       = '-- Hiçbiri --';
+$lang['blog:new_category_label']             = 'Kategori ekle';
+$lang['blog:subscripe_to_rss_label']         = 'RSS\'ye abone ol';
+$lang['blog:all_posts_label']             = 'Tüm yazılar';
+$lang['blog:posts_of_category_suffix']    = ' yazılar';
 $lang['blog:rss_name_suffix']                = ' Blog';
 $lang['blog:rss_category_suffix']            = ' Blog';
-$lang['blog:author_name_label']              = 'Author name';
-$lang['blog:read_more_label']                = 'Read More&nbsp;&raquo;';
-$lang['blog:created_hour']                   = 'Created on Hour';
-$lang['blog:created_minute']                 = 'Created on Minute';
-$lang['blog:comments_enabled_label']         = 'Comments Enabled';
+$lang['blog:author_name_label']              = 'Yazar adı';
+$lang['blog:read_more_label']                = 'Devamını oku&nbsp;&raquo;';
+$lang['blog:created_hour']                   = 'Saat';
+$lang['blog:created_minute']                 = 'Dakika';
+$lang['blog:comments_enabled_label']         = 'Yorumlar Etkin';
 
 // titles
-$lang['blog:create_title']                   = 'Add Post';
-$lang['blog:edit_title']                     = 'Edit post "%s"';
-$lang['blog:archive_title']                 = 'Archive';
-$lang['blog:posts_title']					= 'Posts';
-$lang['blog:rss_posts_title']				= 'Blog posts for %s';
+$lang['blog:create_title']                   = 'Yazı Ekle';
+$lang['blog:edit_title']                     = 'Yazıyı düzenle "%s"';
+$lang['blog:archive_title']                 = 'Arşiv';
+$lang['blog:posts_title']					= 'Yazılar';
+$lang['blog:rss_posts_title']				= '%s için blog yazıları';
 $lang['blog:blog_title']					= 'Blog';
-$lang['blog:list_title']					= 'List Posts';
+$lang['blog:list_title']					= 'Yazıları Listele';
 
 // messages
-$lang['blog:no_posts']                    = 'There are no posts.';
-$lang['blog:subscripe_to_rss_desc']          = 'Get posts straight away by subscribing to our RSS feed. You can do this via most popular e-mail clients, or try <a href="http://reader.google.co.uk/">Google Reader</a>.';
-$lang['blog:currently_no_posts']          = 'There are no posts at the moment.';
-$lang['blog:post_add_success']            = 'The post "%s" was added.';
-$lang['blog:post_add_error']              = 'An error occured.';
-$lang['blog:edit_success']                   = 'The post "%s" was updated.';
-$lang['blog:edit_error']                     = 'An error occurred.';
-$lang['blog:publish_success']                = 'The post "%s" has been published.';
-$lang['blog:mass_publish_success']           = 'The posts "%s" have been published.';
-$lang['blog:publish_error']                  = 'No posts were published.';
-$lang['blog:delete_success']                 = 'The post "%s" has been deleted.';
-$lang['blog:mass_delete_success']            = 'The posts "%s" have been deleted.';
-$lang['blog:delete_error']                   = 'No posts were deleted.';
-$lang['blog:already_exist_error']            = 'An post with this URL already exists.';
+$lang['blog:no_posts']                    = 'Hiçbir yazı yok.';
+$lang['blog:subscripe_to_rss_desc']          = 'RSS akışlarına abone olarak yazıları hemen alın. Bunu popüler email istemcilerini kullanarak, yada <a href="http://www.google.com/reader/">Google Reader</a>\'ı deneyin.';
+$lang['blog:currently_no_posts']          = 'Şuanda hiçbir yazı yok.';
+$lang['blog:post_add_success']            = '"%s" adlı yazı eklendi.';
+$lang['blog:post_add_error']              = 'Bir hata oluştu.';
+$lang['blog:edit_success']                   = '"%s" adlı başarıyla güncellendi.';
+$lang['blog:edit_error']                     = 'Bir hata oluştu.';
+$lang['blog:publish_success']                = '"%s" adlı yazı yayınlandı.';
+$lang['blog:mass_publish_success']           = '"%s" adlı yazılar yayınlandı.';
+$lang['blog:publish_error']                  = 'Hiçbir yazı yayınlanmadı.';
+$lang['blog:delete_success']                 = '"%s" adlı yazı silindi.';
+$lang['blog:mass_delete_success']            = '"%s" adlı yazılar silindi.';
+$lang['blog:delete_error']                   = 'Hiçbir yazı silinmedi.';
+$lang['blog:already_exist_error']            = 'Bu URL\'e ait başka bir yazı mevcut.';
 
-$lang['blog:twitter_posted']                 = 'Posted "%s" %s';
-$lang['blog:twitter_error']                  = 'Twitter Error';
+$lang['blog:twitter_posted']                 = 'Yayın "%s" %s';
+$lang['blog:twitter_error']                  = 'Twitter hatası';
 
 // date
 $lang['blog:archive_date_format']		= "%B %Y";
