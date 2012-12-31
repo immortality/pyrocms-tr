@@ -41,10 +41,10 @@ $lang['profiler_no_queries']	= 'Hiçbir sorgu çalıştırılmadı';
 $lang['profiler_no_post']		= 'POST bilgisi mevcut değil';
 $lang['profiler_no_get']		= 'GET bilgisi mevcut değil';
 $lang['profiler_no_uri']		= 'URI bilgisi mevcut değil';
-$lang['profiler_no_memory']		= 'Memory Kullanımı Uygun Değil';
+$lang['profiler_no_memory']		= 'Önbellek Kullanımı Uygun Değil';
 $lang['profiler_no_profiles']	= 'Profil bilgisi yok - tüm profil bölümleri devre dışı bırakıldı.';
 $lang['profiler_section_hide']	= 'Gizle';
 $lang['profiler_section_show']	= 'Göster';
 
 /* End of file profiler_lang.php */
-/* Location: ./system/language/english/profiler_lang.php */
+/* Location: ./system/language/turkish/profiler_lang.php */

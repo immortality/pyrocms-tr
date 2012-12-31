@@ -46,4 +46,4 @@ $lang['email_exit_status'] = "Çıkış durum kodu: %s";
 
 
 /* End of file email_lang.php */
-/* Location: ./system/language/english/email_lang.php */
+/* Location: ./system/language/turkish/email_lang.php */
