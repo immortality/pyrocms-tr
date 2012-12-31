@@ -1,100 +1,100 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['global:control-panel'] 			= 'Control Panel';
-$lang['global:profile']					= 'Profile';
+$lang['global:control-panel'] 			= 'Yönetim Paneli';
+$lang['global:profile']					= 'Profil';
 
-$lang['global:title'] 					= 'Title';
-$lang['name_label'] 					= 'Name';
-$lang['desc_label'] 					= 'Description';
-$lang['version_label'] 					= 'Version';
-$lang['global:author'] 					= 'Author';
-$lang['global:action'] 					= 'Action';
+$lang['global:title'] 					= 'Başlık';
+$lang['name_label'] 					= 'İsim';
+$lang['desc_label'] 					= 'Açıklama';
+$lang['version_label'] 					= 'Versiyon';
+$lang['global:author'] 					= 'Yayınlayan';
+$lang['global:action'] 					= 'Eylem';
 $lang['global:slug'] 					= 'Slug';
-$lang['global:slug_instructions']		= 'Lowercase characters and underscores only.';
-$lang['global:user'] 					= 'User';
+$lang['global:slug_instructions']		= 'Yalnızca küçük karakterler ve alt çizgi.';
+$lang['global:user'] 					= 'Kullanıcı';
 
-$lang['global:dialog:delete_message'] 	= 'Are you sure you want to delete this? It cannot be undone.';
-$lang['global:dialog:confirm'] 			= 'Confirm';
+$lang['global:dialog:delete_message'] 	= 'Bunu silmek istediğinize emin misiniz? Geri alınamaz.';
+$lang['global:dialog:confirm'] 			= 'Onayla';
 
-$lang['global:yes'] 					= 'Yes';
-$lang['global:no'] 						= 'No';
+$lang['global:yes'] 					= 'Evet';
+$lang['global:no'] 						= 'Hayır';
 
-$lang['global:select-none'] 			= '-- None --';
-$lang['global:select-all'] 				= '-- All --';
-$lang['global:select-any'] 				= '-- Any --';
-$lang['global:select-pick'] 			= '-- Select --';
+$lang['global:select-none'] 			= '-- Hiçbiri --';
+$lang['global:select-all'] 				= '-- Hepsi --';
+$lang['global:select-any'] 				= '-- Herhangi --';
+$lang['global:select-pick'] 			= '-- Seç --';
 
-$lang['global:check-all']				= 'All';
-$lang['global:check-none'] 				= 'None';
+$lang['global:check-all']				= 'Hepsi';
+$lang['global:check-none'] 				= 'Hiçbiri';
 
-$lang['global:operators:equal'] 		= 'Equal to';
-$lang['global:operators:not-equal'] 	= 'Not equal to';
-$lang['global:operators:less-than'] 	= 'Less than';
-$lang['global:operators:greater-than'] 	= 'Greater than';
+$lang['global:operators:equal'] 		= 'Eşit';
+$lang['global:operators:not-equal'] 	= 'Eşit değil';
+$lang['global:operators:less-than'] 	= 'Daha küçük';
+$lang['global:operators:greater-than'] 	= 'Daha büyük';
 
-$lang['navigation_headline'] 			= 'Navigation';
-$lang['breadcrumb_base_label'] 			= 'Home';
+$lang['navigation_headline'] 			= 'Navigasyon';
+$lang['breadcrumb_base_label'] 			= 'Anasayfa';
 
-$lang['logged_in_welcome']				= 'Welcome %s, you are logged in.';
-$lang['logout_label'] 					= 'Log out';
-$lang['edit_profile_label'] 			= 'Edit Profile';
-$lang['settings_label'] 				= 'Settings';
+$lang['logged_in_welcome']				= 'Merhaba %s, giriş yaptınız.';
+$lang['logout_label'] 					= 'Çıkış Yap';
+$lang['edit_profile_label'] 			= 'Profili Düzenle';
+$lang['settings_label'] 				= 'Ayarlar';
 
-$lang['close_message'] 					= 'Close this message';
-$lang['general_error_label'] 			= 'Error';
-$lang['required_error_label'] 			= 'Required field missing';
-$lang['note_label'] 					= 'Note';
-$lang['success_label'] 					= 'Success';
+$lang['close_message'] 					= 'Bu mesajı kapat';
+$lang['general_error_label'] 			= 'Hata';
+$lang['required_error_label'] 			= 'Gerekli bölümler eksik';
+$lang['note_label'] 					= 'Not';
+$lang['success_label'] 					= 'Başarılı';
 
-$lang['login_title'] 					= 'Log In';
-$lang['global:fatal_error'] 			= 'Fatal error, is CMS installed?';
-$lang['global:demo_restrictions'] 		= 'Some features on this page have been disabled for the demo.';
+$lang['login_title'] 					= 'Giriş Yap';
+$lang['global:fatal_error'] 			= 'Kritik hata, CMS kuruldu mu?';
+$lang['global:demo_restrictions'] 		= 'Bazı özellikler demo için devre dışı bırakılmış.';
 
-$lang['login_error_label'] 				= 'Login Error';
-$lang['forgot_password_label'] 			= 'Forgot your password ?';
+$lang['login_error_label'] 				= 'Oturum açma hatası';
+$lang['forgot_password_label'] 			= 'Parolanızı mı unuttunuz ?';
 $lang['email_label'] 					= 'E-mail';
-$lang['password_label'] 				= 'Password';
-$lang['login_label'] 					= 'Log In';
+$lang['password_label'] 				= 'Parola';
+$lang['login_label'] 					= 'Giriş Yap';
 
-$lang['help_label'] 					= 'Help';
-$lang['save_label'] 					= 'Save';
-$lang['cancel_label'] 					= 'Cancel';
-$lang['update_label'] 					= 'Update Caption';
-$lang['global:delete'] 					= 'Delete';
-$lang['activate_label'] 				= 'Activate';
-$lang['approve_label']					= 'Approve';
-$lang['unapprove_label']				= 'Unapprove';
-$lang['publish_label'] 					= 'Publish';
-$lang['upload_label'] 					= 'Upload';
-$lang['global:uninstall'] 				= 'Uninstall';
-$lang['global:install'] 				= 'Install';
-$lang['global:upgrade'] 				= 'Upgrade';
-$lang['global:enable']					= 'Enable';
-$lang['global:disable'] 				= 'Disable';
-$lang['global:enabled']					= 'Enabled';
-$lang['global:disabled'] 				= 'Disabled';
+$lang['help_label'] 					= 'Yardım';
+$lang['save_label'] 					= 'Kaydet';
+$lang['cancel_label'] 					= 'Vazgeç';
+$lang['update_label'] 					= 'Başlığı Güncelle';
+$lang['global:delete'] 					= 'Sil';
+$lang['activate_label'] 				= 'Aktif Et';
+$lang['approve_label']					= 'Onayla';
+$lang['unapprove_label']				= 'Onayı kaldır';
+$lang['publish_label'] 					= 'Yayınla';
+$lang['upload_label'] 					= 'Karşıya Yükle';
+$lang['global:uninstall'] 				= 'Kaldır';
+$lang['global:install'] 				= 'Kur';
+$lang['global:upgrade'] 				= 'Yükselt';
+$lang['global:enable']					= 'Aktif Et';
+$lang['global:disable'] 				= 'Devre Dışı bırak';
+$lang['global:enabled']					= 'Aktif Edildi';
+$lang['global:disabled'] 				= 'Devre Dışı Bırakıldı';
 
-$lang['all_right_reserved']				= 'All Rights Reserved.';
-$lang['powered_by_pyrocms']				= 'Powered by PyroCMS';
-$lang['top_page']						= 'Top';
-$lang['back_to_top']					= 'Back to Top';
+$lang['all_right_reserved']				= 'Tüm Hakları Saklıdır.';
+$lang['powered_by_pyrocms']				= 'PyroCMS tarafından geliştirildi';
+$lang['top_page']						= 'Üst';
+$lang['back_to_top']					= 'Üste Dön';
 
-$lang['global:filters'] 				= 'Filters';
-$lang['global:image'] 					= 'Image';
-$lang['global:description']				= 'Description';
-$lang['global:actions']					= 'Actions';
-$lang['global:view']					= 'View';
-$lang['global:preview']					= 'Preview';
-$lang['global:add']						= 'Add';
-$lang['global:edit']					= 'Edit';
-$lang['global:empty']					= 'Empty';
-$lang['global:delete']					= 'Delete';
-$lang['global:remove']					= 'Remove';
+$lang['global:filters'] 				= 'Filtreler';
+$lang['global:image'] 					= 'Resim';
+$lang['global:description']				= 'Açıklama';
+$lang['global:actions']					= 'Eylemler';
+$lang['global:view']					= 'Gör';
+$lang['global:preview']					= 'Önizleme';
+$lang['global:add']						= 'Ekle';
+$lang['global:edit']					= 'Düzenle';
+$lang['global:empty']					= 'Boşalt';
+$lang['global:delete']					= 'Sil';
+$lang['global:remove']					= 'Kaldır';
 
-$lang['global:keywords']				= 'Keywords';
+$lang['global:keywords']				= 'Keyword';
 
-$lang['global:or']						= 'or';
-$lang['global:and']						= 'and';
-$lang['global:at']						= 'at';
+$lang['global:or']						= 'yada';
+$lang['global:and']						= 've';
+$lang['global:at']						= 'içinde';
 
 /* End of file main_lang.php */

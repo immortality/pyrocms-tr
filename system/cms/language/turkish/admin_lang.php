@@ -1,50 +1,50 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['cp_admin_title'] 				= 'Control Panel';
-$lang['global:dashboard'] 			= 'Dashboard';
-$lang['cp_admin_quick_links']			= 'Quick Links';
+$lang['cp_admin_title'] 				= 'Yönetim Paneli';
+$lang['global:dashboard'] 			= 'Yönetici Ekranı';
+$lang['cp_admin_quick_links']			= 'Hızlı Bağlantılar';
 
-$lang['cp_welcome_title'] 				= 'Welcome';
-$lang['cp_welcome_message'] 			= 'Welcome to the %s Control Panel. Using the links above and to the left you can control almost every aspect of your website. If you happen to have any problems with the system, please submit your issue to our bugtracker.';
+$lang['cp_welcome_title'] 				= 'Hoşgeldin';
+$lang['cp_welcome_message'] 			= '%s Yönetim paneline hoşgeldin  . Websitenizi üstteki ve soldaki bağlantıları kullanarak her şekilde kontrol edebilirsiniz. Sistemin çalışması ile ilgili sorun yaşarsanız, hata bildirimini kullanarak lütfen hatayı bildirin.';
 
-$lang['cp_news_feed_title'] 			= 'News feed';
+$lang['cp_news_feed_title'] 			= 'Haberler';
 
 // Shortcuts
-$lang['cp_manage_comments']				= 'Manage Comments';
-$lang['cp_manage_pages']				= 'Manage Pages';
-$lang['cp_manage_files']				= 'Manage Files';
-$lang['cp_manage_users']				= 'Manage Users';
+$lang['cp_manage_comments']				= 'Yorumları Yönet';
+$lang['cp_manage_pages']				= 'Sayfaları Yönet';
+$lang['cp_manage_files']				= 'Dosyaları Yönet';
+$lang['cp_manage_users']				= 'Kullanıcıları Yönet';
 
 // Header
-$lang['cp_to_home'] 					= 'Back to the Dashboard';
-$lang['cp_view_frontend'] 				= 'View website';
-$lang['cp_logged_in_welcome'] 			= 'Hello %s';
-$lang['cp_logout_label'] 				= 'Logout';
-$lang['cp_edit_profile_label'] 			= 'Edit profile';
+$lang['cp_to_home'] 					= 'Yönetici Ekranına Dön';
+$lang['cp_view_frontend'] 				= 'Siteyi görüntüle';
+$lang['cp_logged_in_welcome'] 			= 'Merhaba %s';
+$lang['cp_logout_label'] 				= 'Çıkış Yap';
+$lang['cp_edit_profile_label'] 			= 'Profili düzenle';
 
 // Footer
-$lang['cp_change_language'] 			= 'Change language';
-$lang['cp_documentation'] 				= 'Documentation';
-$lang['cp_report_bug'] 					= 'Report a bug';
-$lang['cp_contact_support'] 			= 'Support';
+$lang['cp_change_language'] 			= 'Dili değiştir';
+$lang['cp_documentation'] 				= 'DÖküman';
+$lang['cp_report_bug'] 					= 'Hata bildir';
+$lang['cp_contact_support'] 			= 'Destek';
 
-$lang['cp_nav_settings']				= 'Settings';
-$lang['cp_nav_addons']					= 'Add-ons';
-$lang['cp_nav_modules']					= 'Modules';
-$lang['cp_nav_widgets']					= 'Widgets';
-$lang['cp_nav_users']					= 'Users';
-$lang['cp_nav_design']					= 'Design';
-$lang['cp_nav_content']					= 'Content';
-$lang['cp_nav_utilities']				= 'Utilities';
+$lang['cp_nav_settings']				= 'Ayarlar';
+$lang['cp_nav_addons']					= 'Eklentiler';
+$lang['cp_nav_modules']					= 'Modüller';
+$lang['cp_nav_widgets']					= 'Araçlar';
+$lang['cp_nav_users']					= 'Kullanıcılar';
+$lang['cp_nav_design']					= 'Tasarım';
+$lang['cp_nav_content']					= 'İçerik';
+$lang['cp_nav_utilities']				= 'Hizmetler';
 
-$lang['cp_must_login']	 				= 'You must be logged in to view this page.';
-$lang['cp_access_denied'] 				= 'You do not have sufficient permissions to view this page.';
-$lang['cp_delete_installer_message']	= 'Please delete the installer directory from your server. Leaving it online means control of this site could be granted to somebody else.';
-$lang['cp_upgrade_message']				= 'You are currently running version %s, but your database is version %s. Please <a href="%s" title="Upgrade">click here</a> to upgrade the database.';
-$lang['cp_google_analytics_missing']	= 'Google Analytics settings are missing. Add them into %s or contact your administrator.';
-$lang['cp_google_analytics_no_connect']	= 'Could not connect to Google Analytics. Check in %s.';
+$lang['cp_must_login']	 				= 'Bu sayfayı görebilmek için giriş yapmalısınız.';
+$lang['cp_access_denied'] 				= 'Bu sayfayı görebilmek için yetkiniz yok.';
+$lang['cp_delete_installer_message']	= 'Lütfen sunucu nuzdan installer klasörünü silin. Bu dosyanın var olması sitenizin başka kullanıcıların eline geçebileceği anlamına gelir.';
+$lang['cp_upgrade_message']				= 'Şuanda kullandığınız versiyon %s, fakat veritabanı versiyonu %s. Lütfen <a href="%s" title="Upgrade">buraya</a> tıklayarak veritabanını yükseltin.';
+$lang['cp_google_analytics_missing']	= 'Google Analytics ayarları eksik. Buraya ekleyin %s veya yöneticinizle irtibata geçin.';
+$lang['cp_google_analytics_no_connect']	= 'Google Analytics\'e bağlanılamadı. Kontrol edin %s.';
 
-$lang['required_label'] 				= 'Required';
-$lang['sb_recent_users'] 				= 'Recent users';
+$lang['required_label'] 				= 'Gerekli';
+$lang['sb_recent_users'] 				= 'Son kullanıcılar';
 
 /* End of file admin_lang.php */

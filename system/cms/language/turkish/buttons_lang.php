@@ -12,28 +12,28 @@
  * @filesource
  */
 
-$lang['buttons.submit']		= 'Save';
-$lang['buttons.cancel']		= 'Cancel';
-$lang['buttons.upload']		= 'Upload';
-$lang['buttons.save']		= 'Save';
-$lang['buttons.save_exit']	= 'Save &amp; Exit';
-$lang['buttons.delete']		= 'Delete';
-$lang['buttons.publish']	= 'Publish';
-$lang['buttons.approve']	= 'Approve';
-$lang['buttons.unapprove']	= 'Un-approve';
-$lang['buttons.install']	= 'Install';
-$lang['buttons.uninstall']	= 'Uninstall';
-$lang['buttons.enable']		= 'Enable';
-$lang['buttons.disable']	= 'Disable';
-$lang['buttons.yes']		= 'Yes';
-$lang['buttons.no']			= 'No';
-$lang['buttons.activate']   = 'Activate';
-$lang['buttons.deactivate'] = 'Deactivate';
-$lang['buttons.preview']	= 'Preview';
-$lang['buttons.close']		= 'Close';
-$lang['buttons.edit']		= 'Edit';
-$lang['buttons.clone']		= 'Clone';
+$lang['buttons.submit']		= 'Kaydet';
+$lang['buttons.cancel']		= 'Vazgeç';
+$lang['buttons.upload']		= 'Yükle';
+$lang['buttons.save']		= 'Kaydet';
+$lang['buttons.save_exit']	= 'Kaydet &amp; Çık';
+$lang['buttons.delete']		= 'Sil';
+$lang['buttons.publish']	= 'Yayınla';
+$lang['buttons.approve']	= 'Onayla';
+$lang['buttons.unapprove']	= 'Onay kaldır';
+$lang['buttons.install']	= 'Yükle';
+$lang['buttons.uninstall']	= 'Kaldır';
+$lang['buttons.enable']		= 'Aktif Et';
+$lang['buttons.disable']	= 'Devre Dışı';
+$lang['buttons.yes']		= 'Evet';
+$lang['buttons.no']			= 'Hayır';
+$lang['buttons.activate']   = 'Aktif Et';
+$lang['buttons.deactivate'] = 'Pasifleştir';
+$lang['buttons.preview']	= 'Önizleme';
+$lang['buttons.close']		= 'Kapat';
+$lang['buttons.edit']		= 'Düzenle';
+$lang['buttons.clone']		= 'Kopyala';
 $lang['buttons.re-index']	= 'Re-index';
-$lang['buttons.copy']		= 'Copy';
+$lang['buttons.copy']		= 'Kopyala';
 
 /* End of file buttons_lang.php */
