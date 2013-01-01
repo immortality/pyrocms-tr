@@ -1,51 +1,51 @@
 <?php
 
-$lang['comments.title'] 					= 'Comments';
-$lang['comments.your_comment'] 				= 'Post a comment';
-$lang['comments.user_comments'] 			= 'User comments';
+$lang['comments.title'] 					= 'Yorumlar';
+$lang['comments.your_comment'] 				= 'Yorum yaz';
+$lang['comments.user_comments'] 			= 'Kullanıcı yorumları';
 
-$lang['comments.list_comment'] 				= '%s commented on %s saying:';
-$lang['comments.recent_comments'] 			= 'Recent comments';
-$lang['comments.view_more'] 				= 'View more...';
+$lang['comments.list_comment'] 				= '%s, %s\'a yorum yaptı:';
+$lang['comments.recent_comments'] 			= 'Son yorumlar';
+$lang['comments.view_more'] 				= 'Devamı...';
 
 // labels
-$lang['comments.name_label'] 				= 'Your Name';
-$lang['comments.email_label'] 				= 'Email Address';
+$lang['comments.name_label'] 				= 'İsim';
+$lang['comments.email_label'] 				= 'Mail Adresi';
 $lang['comments.website_label'] 			= 'Website';
-$lang['comments.message_label'] 			= 'Message';
-$lang['comments.status_label'] 				= 'Status';
-$lang['comments.activate_label'] 			= 'Approve';
-$lang['comments.deactivate_label'] 			= 'Unapprove';
-$lang['comments.module_label'] 				= 'Module';
+$lang['comments.message_label'] 			= 'Mesaj';
+$lang['comments.status_label'] 				= 'Durum';
+$lang['comments.activate_label'] 			= 'Onayla';
+$lang['comments.deactivate_label'] 			= 'Onayı kaldır';
+$lang['comments.module_label'] 				= 'Modül';
 $lang['comments.item_label'] 				= 'Item';
-$lang['comments.date_label'] 				= 'Date';
-$lang['comments.posted_label'] 				= 'Posted';
-$lang['comments.from_label'] 				= 'From';
-$lang['comments.preview_label'] 			= 'Preview';
-$lang['comments.send_label'] 				= 'Comment';
+$lang['comments.date_label'] 				= 'Tarih';
+$lang['comments.posted_label'] 				= 'Yazım';
+$lang['comments.from_label'] 				= 'Kimden';
+$lang['comments.preview_label'] 			= 'Önizleme';
+$lang['comments.send_label'] 				= 'Yorum';
 
-$lang['comments.inactive_title'] 			= 'Comments awaiting approval';
-$lang['comments.active_title'] 				= 'Approved comments';
-$lang['comments.edit_title'] 				= 'Edit comment';
-$lang['comments.list_title'] 				= 'List comments';
+$lang['comments.inactive_title'] 			= 'Onay bekleyen yorumlar';
+$lang['comments.active_title'] 				= 'Onaylı yorumlar';
+$lang['comments.edit_title'] 				= 'Yorumu düzenle';
+$lang['comments.list_title'] 				= 'Yorumları listele';
 
 // messages
-$lang['comments.add_success'] 				= 'The comment has been saved.';
-$lang['comments.add_approve'] 				= 'The comment has been saved and is awaiting approval.';
-$lang['comments.add_error']					= 'There was a problem adding your comment. Please try again later.';
+$lang['comments.add_success'] 				= 'Yorum kaydedildi.';
+$lang['comments.add_approve'] 				= 'Yorum kaydedildi ve onaylanmayı bekliyor.';
+$lang['comments.add_error']					= 'Yorumunuzu eklerken bir hata oluştu. Lütfen daha sonra deneyin.';
 
-$lang['comments.edit_success'] 				= 'The comment was edited successfully.';
-$lang['comments.edit_error'] 				= 'The comment could not be edited.';
+$lang['comments.edit_success'] 				= 'Yorum başarıyla düzenlendi.';
+$lang['comments.edit_error'] 				= 'Yorum düzenlenemedi.';
 
-$lang['comments.approve_success'] 			= 'This comment has been approved.';
-$lang['comments.approve_success_multiple'] 	= 'The selected comments have been approved.';
-$lang['comments.approve_error'] 			= 'There was a problem approving this comment.';
-$lang['comments.approve_error_multiple'] 	= 'There was a problem approving the selected comments.';
+$lang['comments.approve_success'] 			= 'Yorum onaylandı.';
+$lang['comments.approve_success_multiple'] 	= 'Seçilen yorumlar onaylandı.';
+$lang['comments.approve_error'] 			= 'Yorum onaylanırken bir sorun oluştu.';
+$lang['comments.approve_error_multiple'] 	= 'Seçilen yorumlar onaylanırken bir sorun oluştu.';
 
-$lang['comments.unapprove_success'] 		= 'The comment has been unapproved and will no longer show on the live site.';
-$lang['comments.unapprove_success_multiple'] = 'The selected comments have been unapproved and will no longer show on the live site.';
-$lang['comments.unapprove_error'] 			= 'There was a problem unapproving this comment. Perhaps deleting would work?';
-$lang['comments.unapprove_error_multiple']	= 'There was a problem unapproving the selected comments. Perhaps deleting would work?';
+$lang['comments.unapprove_success'] 		= 'Yorumun onayı kaldırıldı artık sitede gösterilmeyecek.';
+$lang['comments.unapprove_success_multiple'] = 'Seçilen yorumların onayı kaldırıldı artık sitede gösterilmeyecek.';
+$lang['comments.unapprove_error'] 			= 'Bu yorumun onayı kaldırılırken bir sorun oluştu. Silmek işe yarayabilir?';
+$lang['comments.unapprove_error_multiple']	= 'Seçilen yorumların onayı kaldırılırken bir sorun oluştu. Silmek işe yarayabilir?';
 
 $lang['comments.delete_single_success'] 	= 'This comment #%s has been deleted and will no longer show on the live site.';
 $lang['comments.delete_multi_success'] 		= 'The comments #%s have been deleted and will no longer show on the live site.';
