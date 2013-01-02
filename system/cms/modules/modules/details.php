@@ -15,7 +15,8 @@ class Module_Modules extends Module
 	{
 		$info = array(
 			'name' => array(
-				'en' => 'Modules',
+                'tr' => 'Bileşenler',
+                'en' => 'Modules',
 				'ar' => 'الوحدات',
 				'br' => 'Módulos',
 				'pt' => 'Módulos',
@@ -40,7 +41,8 @@ class Module_Modules extends Module
                                 'se' => 'Moduler'
 			),
 			'description' => array(
-				'en' => 'Allows admins to see a list of currently installed modules.',
+                'tr' => 'Yöneticilerin yüklenmiş bileşenleri görmesine olanak sağlar.',
+                'en' => 'Allows admins to see a list of currently installed modules.',
 				'ar' => 'تُمكّن المُدراء من معاينة جميع الوحدات المُثبّتة.',
 				'br' => 'Permite aos administradores ver a lista dos módulos instalados atualmente.',
 				'pt' => 'Permite aos administradores ver a lista dos módulos instalados atualmente.',

@@ -15,7 +15,8 @@
 	{
 		return array(
 			'name' => array(
-				'en' => 'Groups',
+                'tr' => 'Gruplar',
+                'en' => 'Groups',
 				'ar' => 'المجموعات',
 				'br' => 'Grupos',
 				'pt' => 'Grupos',
@@ -39,7 +40,8 @@
 				'se' => 'Grupper',
 			),
 			'description' => array(
-				'en' => 'Users can be placed into groups to manage permissions.',
+                'tr' => 'Kullanıcılara yetki vermek için gruplara ayırabilirsiniz.',
+                'en' => 'Users can be placed into groups to manage permissions.',
 				'ar' => 'يمكن وضع المستخدمين في مجموعات لتسهيل إدارة صلاحياتهم.',
 				'br' => 'Usuários podem ser inseridos em grupos para gerenciar suas permissões.',
 				'pt' => 'Utilizadores podem ser inseridos em grupos para gerir as suas permissões.',

@@ -14,7 +14,8 @@ class Module_Contact extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Contact',
+                'tr' => 'İletişim',
+                'en' => 'Contact',
 				'ar' => 'الإتصال',
 				'br' => 'Contato',
 				'pt' => 'Contacto',
@@ -39,7 +40,8 @@ class Module_Contact extends Module {
                                 'se' => 'Kontakt'
 			),
 			'description' => array(
-				'en' => 'Adds a form to your site that allows visitors to send emails to you without disclosing an email address to them.',
+                'tr' => 'Sitenizi form koymanıza olarak sağlar ve kullanıcılar size mail gönderebilir, üstelik mail adresinizi bildirmeniz gerekmez.',
+                'en' => 'Adds a form to your site that allows visitors to send emails to you without disclosing an email address to them.',
 				'ar' => 'إضافة استمارة إلى موقعك تُمكّن الزوّار من مراسلتك دون علمهم بعنوان البريد الإلكتروني.',
 				'br' => 'Adiciona um formulário para o seu site permitir aos visitantes que enviem e-mails para voce sem divulgar um endereço de e-mail para eles.',
 				'pt' => 'Adiciona um formulário ao seu site que permite aos visitantes enviarem e-mails sem divulgar um endereço de e-mail.',

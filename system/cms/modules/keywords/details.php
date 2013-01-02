@@ -16,7 +16,8 @@ class Module_Keywords extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Keywords',
+                'tr' => 'Anahtar Kelimeler',
+                'en' => 'Keywords',
 				'ar' => 'كلمات البحث',
 				'br' => 'Palavras-chave',
 				'pt' => 'Palavras-chave',
@@ -33,7 +34,8 @@ class Module_Keywords extends Module {
 				'se' => 'Nyckelord',
 			),
 			'description' => array(
-				'en' => 'Maintain a central list of keywords to label and organize your content.',
+                'tr' => 'İçeriklerinizi düzenlemek için anahtar kelimeleri tek bir merkezden yönetin.',
+                'en' => 'Maintain a central list of keywords to label and organize your content.',
 				'ar' => 'أنشئ مجموعة من كلمات البحث التي تستطيع من خلالها وسم وتنظيم المحتوى.',
 				'br' => 'Mantém uma lista central de palavras-chave para rotular e organizar o seu conteúdo.',
 				'pt' => 'Mantém uma lista central de palavras-chave para rotular e organizar o seu conteúdo.',
