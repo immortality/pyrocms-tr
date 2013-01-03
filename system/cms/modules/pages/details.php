@@ -14,7 +14,8 @@ class Module_Pages extends Module
 	{
 		return array(
 			'name' => array(
-				'en' => 'Pages',
+                'tr' => 'Sayfalar',
+                'en' => 'Pages',
 				'ar' => 'الصفحات',
 				'br' => 'Páginas',
 				'pt' => 'Páginas',
@@ -39,7 +40,8 @@ class Module_Pages extends Module
             	'se' => 'Sidor',
 			),
 			'description' => array(
-				'en' => 'Add custom pages to the site with any content you want.',
+                'tr' => 'Sitenize dilediğiniz türde sayfa ekleyin.',
+                'en' => 'Add custom pages to the site with any content you want.',
 				'ar' => 'إضافة صفحات مُخصّصة إلى الموقع تحتوي أية مُحتوى تريده.',
 				'br' => 'Adicionar páginas personalizadas ao site com qualquer conteúdo que você queira.',
 				'pt' => 'Adicionar páginas personalizadas ao seu site com qualquer conteúdo que você queira.',

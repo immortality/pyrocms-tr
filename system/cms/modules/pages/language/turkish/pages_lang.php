@@ -1,69 +1,69 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['pages:page']							= 'Page';
-$lang['pages:pages']						= 'Pages';
+$lang['pages:page']							= 'Sayfa';
+$lang['pages:pages']						= 'Sayfalar';
 
 // tabs
-$lang['pages:content_label']				= 'Page Content';
-$lang['pages:meta_label']					= 'Meta data';
-$lang['pages:design_label']					= 'Design';
+$lang['pages:content_label']				= 'Sayfa İçeriği';
+$lang['pages:meta_label']					= 'Meta bilgisi';
+$lang['pages:design_label']					= 'Tasarım';
 $lang['pages:script_label']					= 'Script';
-$lang['pages:options_label']				= 'Options';
-$lang['pages:detail_label']					= 'Details';
+$lang['pages:options_label']				= 'Seçenekler';
+$lang['pages:detail_label']					= 'Detaylar';
 
 // label
-$lang['pages:add_page_chunk']				= 'Add Page Chunk';
-$lang['pages:page_chunk']					= 'Page Chunk';
-$lang['pages:language_label']				= 'Language';
-$lang['pages:updated_label']				= 'Updated';
-$lang['pages:unknown_label']				= 'Unknown';
-$lang['pages:navigation_label']				= 'Add to Navigation';
-$lang['pages:body_label']					= 'Page body';
-$lang['pages:meta_title_label']				= 'Meta title';
-$lang['pages:meta_keywords_label']			= 'Meta keywords';
-$lang['pages:meta_desc_label']				= 'Meta description';
-$lang['pages:layout_id_label']				= 'Page Layout';
+$lang['pages:add_page_chunk']				= 'Sayfa Öbeği Ekle';
+$lang['pages:page_chunk']					= 'Sayfa Öbeği';
+$lang['pages:language_label']				= 'Dil';
+$lang['pages:updated_label']				= 'Güncellendi';
+$lang['pages:unknown_label']				= 'Bilinmeyen';
+$lang['pages:navigation_label']				= 'Navigasyona Ekle';
+$lang['pages:body_label']					= 'Sayfa gövdesi';
+$lang['pages:meta_title_label']				= 'Meta başlık';
+$lang['pages:meta_keywords_label']			= 'Meta anahtar keliemler';
+$lang['pages:meta_desc_label']				= 'Meta açıklama';
+$lang['pages:layout_id_label']				= 'Sayfa Yapısı';
 $lang['pages:css_label']					= 'CSS';
 $lang['pages:js_label']						= 'JavaScript';
-$lang['pages:access_label']					= 'Access';
-$lang['pages:rss_enabled_label']			= 'RSS enabled?';
-$lang['pages:comments_enabled_label']		= 'Comments enabled?';
-$lang['pages:is_home_label']				= 'Is default (home) page?';
-$lang['pages:strict_uri_label']				= 'Require an exact uri match?';
+$lang['pages:access_label']					= 'Erişim';
+$lang['pages:rss_enabled_label']			= 'RSS aktif?';
+$lang['pages:comments_enabled_label']		= 'Yorumlar aktif?';
+$lang['pages:is_home_label']				= 'Varsayılan (anasayfa) mı?';
+$lang['pages:strict_uri_label']				= 'Tam bir uri eşleşmesi gerekir mi?';
 
-$lang['pages:status_label']					= 'Status';
-$lang['pages:draft_label']					= 'Draft';
-$lang['pages:live_label']					= 'Live';
-$lang['pages:revisions_label']				= 'Revisions';
-$lang['pages:compare_label']				= 'Compare';
-$lang['pages:preview_label']				= 'Preview';
-$lang['pages:current_label']				= 'Current';
-$lang['pages:view_label']					= 'View';
-$lang['pages:create_label']					= 'Add child';
-$lang['pages:duplicate_label']				= 'Duplicate';
+$lang['pages:status_label']					= 'Durum';
+$lang['pages:draft_label']					= 'Taslak';
+$lang['pages:live_label']					= 'Aktif';
+$lang['pages:revisions_label']				= 'Düzeltmeler';
+$lang['pages:compare_label']				= 'Karşılaştır';
+$lang['pages:preview_label']				= 'Önizleme';
+$lang['pages:current_label']				= 'Geçerli';
+$lang['pages:view_label']					= 'Görünüm';
+$lang['pages:create_label']					= 'Alt sayfa ekle';
+$lang['pages:duplicate_label']				= 'Kopyala';
 
 // title
-$lang['pages:create_title']					= 'Add Page';
-$lang['pages:edit_title']					= 'Edit Page "%s"';
-$lang['pages:list_title']					= 'Pages';
-$lang['pages:layouts_create_title']			= 'Add Page Layout';
-$lang['pages:layouts_list_title']			= 'Layouts';
+$lang['pages:create_title']					= 'Sayfa Ekle';
+$lang['pages:edit_title']					= 'Sayfa Düzenle "%s"';
+$lang['pages:list_title']					= 'Sayfalar';
+$lang['pages:layouts_create_title']			= 'Sayfa Yapısı Ekle';
+$lang['pages:layouts_list_title']			= 'Yapılar';
 
 // messages
-$lang['pages:no_pages']						= 'There are no pages.';
-$lang['pages_create_success']				= 'The page was created.';
-$lang['pages_create_error']					= 'That page has not been created.';
-$lang['pages_page_not_found_error']			= 'That page does not exist.';
-$lang['pages_edit_success']					= 'The page "%s" was saved.';
-$lang['pages_delete_home_error']			= 'You can not delete the home page!';
-$lang['pages_delete_success']				= 'Page #%s has been deleted.';
-$lang['pages_mass_delete_success']			= '%s pages have been deleted.';
-$lang['pages_delete_none_notice']			= 'No pages were deleted.';
-$lang['pages_page_already_exist_error']		= 'A page with the URL "%s" already exists in %s.';
-$lang['pages_parent_not_exist_error']		= 'The parent page you have selected does not exist.';
-$lang['pages_chunk_slug_length']			= 'Page Chunk slugs may be no more than 30 characters in length.';
-$lang['pages_root_folder']                	= 'the top level';
+$lang['pages:no_pages']						= 'Hiçbir sayfa yok.';
+$lang['pages_create_success']				= 'Sayfa oluşturuldu.';
+$lang['pages_create_error']					= 'Sayfa oluşturulamadı.';
+$lang['pages_page_not_found_error']			= 'Sayfa mevcut değil.';
+$lang['pages_edit_success']					= 'Sayfa "%s" kaydedildi.';
+$lang['pages_delete_home_error']			= 'Ana Sayfa yı silemezsiniz!';
+$lang['pages_delete_success']				= 'Sayfa #%s silindi.';
+$lang['pages_mass_delete_success']			= '%s sayfaları silindi.';
+$lang['pages_delete_none_notice']			= 'Hiçbir sayfa silinmedi.';
+$lang['pages_page_already_exist_error']		= '"%s" URL\'ine ait bir sayfa %s içinde mevcut.';
+$lang['pages_parent_not_exist_error']		= 'Seçtiğiniz üst sayfa mevcut değil.';
+$lang['pages_chunk_slug_length']			= 'Sayfa yığını slug ı 30 karakterden uzun olmamalı.';
+$lang['pages_root_folder']                	= 'en üst seviye';
 
-$lang['pages:tree_explanation_title']	    = 'Explanation';
-$lang['pages:tree_explanation']				= 'The list on the left represents pages on your website. Click the page item to show its children. You may drag pages to order them; drag horizontally to make it a child. When you click the page text you will see all sorts of handy information in this box.';
-$lang['pages:rss_explanation']				= 'Enabling RSS for this page will give users a chance to subscribe to an RSS feed which shows each immediate page child as a new entry.';
+$lang['pages:tree_explanation_title']	    = 'Açıklama';
+$lang['pages:tree_explanation']				= 'Soldaki liste web sayfanızı temsil eder. Alt sayfaları görmek için o sayfanın üzerine tıklayın. Sayfaları sıralamk için sürükleyebilirsiniz; alt sayfa yapmak için altına sürükleyin. Sayfa yazısına tıklayınızda bununla ilgili tüm bilgileri bu kutucukta görebilrisiniz.';
+$lang['pages:rss_explanation']				= 'RSS akışlarını aktif etmek kullanıcılara bu sayfada yapılan tüm aktiviteleri anında görmelerine olanak sağlar.';

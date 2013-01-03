@@ -14,7 +14,8 @@ class Module_Permissions extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Permissions',
+                'tr' => 'İzinler',
+                'en' => 'Permissions',
 				'ar' => 'الصلاحيات',
 				'br' => 'Permissões',
 				'pt' => 'Permissões',
@@ -39,7 +40,8 @@ class Module_Permissions extends Module {
                                 'se' => 'Behörigheter'
 			),
 			'description' => array(
-				'en' => 'Control what type of users can see certain sections within the site.',
+                'tr' => 'Hangi türde kullanıcının sitenizin hangi bölümüne erişebileceğini kontrol edin.',
+                'en' => 'Control what type of users can see certain sections within the site.',
 				'ar' => 'التحكم بإعطاء الصلاحيات للمستخدمين للوصول إلى أقسام الموقع المختلفة.',
 				'br' => 'Controle quais tipos de usuários podem ver certas seções no site.',
 				'pt' => 'Controle quais os tipos de utilizadores podem ver certas secções no site.',

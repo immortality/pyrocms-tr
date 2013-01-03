@@ -14,7 +14,8 @@ class Module_Sitemap extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Sitemap',
+                'tr' => 'Site Haritası',
+                'en' => 'Sitemap',
 				'ar' => 'خريطة الموقع',
 				'br' => 'Mapa do Site',
 				'pt' => 'Mapa do Site',
@@ -34,7 +35,8 @@ class Module_Sitemap extends Module {
                                 'se' => 'Sajtkarta'
 			),
 			'description' => array(
-				'en' => 'The sitemap module creates an index of all pages and an XML sitemap for search engines.',
+                'tr' => 'Site haritaları bileşeni arama motorları için tüm sayfaların XML site haritasını oluşturur.',
+                'en' => 'The sitemap module creates an index of all pages and an XML sitemap for search engines.',
 				'ar' => 'وحدة خريطة الموقع تنشئ فهرساً لجميع الصفحات وملف XML لمحركات البحث.',
 				'br' => 'O módulo de mapa do site cria um índice de todas as páginas e um sitemap XML para motores de busca.',
 				'pt' => 'O módulo do mapa do site cria um índice de todas as páginas e um sitemap XML para motores de busca.',

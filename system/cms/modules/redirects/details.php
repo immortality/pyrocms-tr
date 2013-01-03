@@ -14,7 +14,8 @@ class Module_Redirects extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Redirects',
+                'tr' => 'Yönlendirmeler',
+                'en' => 'Redirects',
 				'ar' => 'التوجيهات',
 				'br' => 'Redirecionamentos',
 				'pt' => 'Redirecionamentos',
@@ -37,7 +38,8 @@ class Module_Redirects extends Module {
                                 'se' => 'Omdirigeringar'
 			),
 			'description' => array(
-				'en' => 'Redirect from one URL to another.',
+                'tr' => 'Bir URL\', başka birine yönlendirin.',
+                'en' => 'Redirect from one URL to another.',
 				'ar' => 'التوجيه من رابط URL إلى آخر.',
 				'br' => 'Redirecionamento de uma URL para outra.',
 				'pt' => 'Redirecionamentos de uma URL para outra.',

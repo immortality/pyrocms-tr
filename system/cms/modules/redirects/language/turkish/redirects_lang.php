@@ -1,28 +1,28 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 // labels
-$lang['redirects.from']                      = 'From';
-$lang['redirects.to']                        = 'To';
-$lang['redirects.edit']                      = 'Edit';
-$lang['redirects.delete']                    = 'Delete';
-$lang['redirects.type']                      = 'Type';
+$lang['redirects.from']                      = 'Burdan';
+$lang['redirects.to']                        = 'Buraya';
+$lang['redirects.edit']                      = 'Düzenle';
+$lang['redirects.delete']                    = 'Sil';
+$lang['redirects.type']                      = 'Tür';
 
 // redirect types
-$lang['redirects.301']                       = '301 - Moved Permanently';
-$lang['redirects.302']                       = '302 - Moved Temporarily';
+$lang['redirects.301']                       = '301 - Kalıcı Taşındı';
+$lang['redirects.302']                       = '302 - Geçici Taşındı';
 
 // titles
-$lang['redirects.add_title']                 = 'Add Redirect';
-$lang['redirects.edit_title']                = 'Edit Redirect';
-$lang['redirects.list_title']                = 'Redirects';
+$lang['redirects.add_title']                 = 'Yönlendirme Ekle';
+$lang['redirects.edit_title']                = 'Yönlendirmeyi Düzenle';
+$lang['redirects.list_title']                = 'Yönlendirmeler';
 
 // messages
-$lang['redirects.no_redirects']              = 'There are currently no redirects.';
-$lang['redirects.add_success']               = 'The new redirect has been saved.';
-$lang['redirects.add_error']                 = 'The new redirect could not be saved, please try again later.';
-$lang['redirects.edit_success']              = 'Changes to this redirect have been saved.';
-$lang['redirects.edit_error']                = 'Changes to this redirect could not be saved, please try again later.';
-$lang['redirects.mass_delete_error']         = 'Error occurred while trying to delete redirect "%s".';
-$lang['redirects.mass_delete_success']       = '%s redirects out of %s successfully deleted.';
-$lang['redirects.no_select_error']           = 'You need to select at least one redirect to delete.';
-$lang['redirects.request_conflict_error']    = 'A redirect already exists for "%s".';
+$lang['redirects.no_redirects']              = 'Hiçbir yönlendirme yok.';
+$lang['redirects.add_success']               = 'Yeni yönlendirme kaydedildi.';
+$lang['redirects.add_error']                 = 'Yeni yönlendirme kaydedilemedi, lütfen daha sonra tekrar deneyin.';
+$lang['redirects.edit_success']              = 'Yönlendirmeye yapılan değişiklikler kaydedildi.';
+$lang['redirects.edit_error']                = 'Yönlendirmeye yapılan değişiklikler kaydedilemedi, lütfen daha sonra tekrar deneyin.';
+$lang['redirects.mass_delete_error']         = '"%s" yönlendirmesi silinirken bir hata oluştu.';
+$lang['redirects.mass_delete_success']       = '%s yönlendirme başarıyla silindi toplamdan %s yönlendirmeden.';
+$lang['redirects.no_select_error']           = 'Silmek için en az bir yönlendirme seçmelisiniz.';
+$lang['redirects.request_conflict_error']    = '"%s" için bir yönlendirme zaten mevcut.';

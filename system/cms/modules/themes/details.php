@@ -14,7 +14,8 @@ class Module_Themes extends Module {
 	{
 		$info = array(
 			'name' => array(
-				'en' => 'Themes',
+                'tr' => 'Temalar',
+                'en' => 'Themes',
 				'ar' => 'السّمات',
 				'br' => 'Temas',
 				'pt' => 'Temas',
@@ -39,7 +40,8 @@ class Module_Themes extends Module {
                                 'se' => 'Teman'
 			),
 			'description' => array(
-				'en' => 'Allows admins and staff to switch themes, upload new themes, and manage theme options.',
+                'tr' => 'Yöneticilerin temaları değişmek, yeni bir tane yüklemek ve tema ayarlarını değiştirmesini sağlar.',
+                'en' => 'Allows admins and staff to switch themes, upload new themes, and manage theme options.',
 				'ar' => 'تمكّن الإدارة وأعضاء الموقع تغيير سِمة الموقع، وتحميل سمات جديدة وإدارتها بطريقة مرئية سلسة.',
 				'br' => 'Permite aos administradores e membros da equipe fazer upload de novos temas e gerenciá-los através de uma interface visual.',
 				'pt' => 'Permite aos administradores fazer upload de novos temas e geri-los através de uma interface visual.',

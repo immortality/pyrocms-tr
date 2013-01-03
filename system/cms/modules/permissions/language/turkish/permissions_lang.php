@@ -1,15 +1,15 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['permissions:group']                       = 'Group';
-$lang['permissions:roles']                       = 'Roles';
-$lang['permissions:module']                      = 'Module';
-$lang['permissions:edit']                        = 'Edit Permissions';
+$lang['permissions:group']                       = 'Grup';
+$lang['permissions:roles']                       = 'Roller';
+$lang['permissions:module']                      = 'Bileşen';
+$lang['permissions:edit']                        = 'İzinleri Ayarla';
 
-$lang['permissions:introduction']                = 'You can create custom permissions for different users by assigning them to groups in the Users > Manage Users area. Then you can Edit Permissions for each group and control what modules and "roles" a group can have.';
+$lang['permissions:introduction']                = 'Farklı kullanıcıları gruplandırarak onlara özel erişim izini verebilirsiniz, bunun için Kullanıcılar > Kullanıcıları Yönet adımını takip edin. Daha sonra her bileşen için ayrı ayrı izinleri ayarlayabilirsiniz.';
 
-$lang['permissions:message_group_saved_success'] = 'The permissions for this group have been saved.';
-$lang['permissions:message_group_saved_error']   = 'Sorry, the permissions for this group could not be saved.';
-$lang['permissions:message_no_group_id_provided'] = 'The group id provided was not valid.';
-$lang['permissions:admin_has_all_permissions'] = 'The Admin group has access to everything';
-$lang['permissions:checkbox_tooltip_action_to_all'] = 'Check to give access permission to all modules for this group.';
-$lang['permissions:checkbox_tooltip_give_access_to_module'] = 'Check to give access permission to the &quot;%s&quot; module for this group.';
+$lang['permissions:message_group_saved_success'] = 'Bu grup için izinler kaydedildi.';
+$lang['permissions:message_group_saved_error']   = 'Üzgünüm, bu grup için izinler kaydedilemedi.';
+$lang['permissions:message_no_group_id_provided'] = 'Belirttiğiniz grup id si geçerli değil.';
+$lang['permissions:admin_has_all_permissions'] = 'Admin grubu herşeye erişebilir';
+$lang['permissions:checkbox_tooltip_action_to_all'] = 'Bu grup için tüm bileşenlere erişim izini vermek için işaretleyin.';
+$lang['permissions:checkbox_tooltip_give_access_to_module'] = 'Bu grup için &quot;%s&quot; bileşenine erişim izini vermek için işaretleyin.';
