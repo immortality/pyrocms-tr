@@ -69,7 +69,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= "english"; // Is overridden in hooks/pick_language.php
+$config['language']	= "turkish"; // Is overridden in hooks/pick_language.php
 
 /*
 |--------------------------------------------------------------------------
