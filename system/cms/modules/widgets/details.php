@@ -14,7 +14,8 @@ class Module_Widgets extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Widgets',
+                'tr' => 'Araçlar',
+                'en' => 'Widgets',
 				'ar' => 'الودجت',
 				'br' => 'Widgets',
 				'pt' => 'Widgets',
@@ -36,7 +37,8 @@ class Module_Widgets extends Module {
                                 'se' => 'Widgetar'
 			),
 			'description' => array(
-				'en' => 'Manage small sections of self-contained logic in blocks or "Widgets".',
+                'tr' => 'Araçları yönetin sitenizde bloklar halinde düzenleyin".',
+                'en' => 'Manage small sections of self-contained logic in blocks or "Widgets".',
 				'ar' => 'إدارة أقسام صغيرة من البرمجيات في مساحات الموقع أو ما يُسمّى بالـ"وِدْجِتْ".',
 				'br' => 'Gerenciar pequenas seções de conteúdos em bloco conhecidos como "Widgets".',
 				'pt' => 'Gerir pequenas secções de conteúdos em bloco conhecidos como "Widgets".',

@@ -15,33 +15,33 @@
 */
 
 // Account Creation
-$lang['account_creation_successful'] 	  	 = 'Account Successfully Created';
-$lang['account_creation_unsuccessful'] 	 	 = 'Unable to Create Account';
-$lang['account_creation_duplicate_email'] 	 = 'Email Already Used or Invalid';
-$lang['account_creation_duplicate_username'] 	 = 'Username Already Used or Invalid';
+$lang['account_creation_successful'] 	  	 = 'Hesap başarıyla oluşturuldu';
+$lang['account_creation_unsuccessful'] 	 	 = 'Hesap oluşturulamadı';
+$lang['account_creation_duplicate_email'] 	 = 'Email zaten kayıtlı veya geçersiz';
+$lang['account_creation_duplicate_username'] 	 = 'Kullanıcı adı zaten kayıtlı veya geçersiz';
 
 
 // Password
-$lang['password_change_successful'] 	 	 = 'Password Successfully Changed';
-$lang['password_change_unsuccessful'] 	  	 = 'Unable to Change Password';
-$lang['forgot_password_successful'] 	 	 = 'Password Reset Email Sent';
-$lang['forgot_password_unsuccessful'] 	 	 = 'Unable to Reset Password';
+$lang['password_change_successful'] 	 	 = 'Parola başarıyla değiştirildi';
+$lang['password_change_unsuccessful'] 	  	 = 'Parola değiştirilemedi';
+$lang['forgot_password_successful'] 	 	 = 'Parola sıfırlama maili gönderildi';
+$lang['forgot_password_unsuccessful'] 	 	 = 'Parola sıfırlanamadı';
 
 // Activation
-$lang['activate_successful'] 		  	 = 'Account Activated';
-$lang['activate_unsuccessful'] 		 	 = 'Unable to Activate Account';
-$lang['deactivate_successful'] 		  	 = 'Account De-Activated';
-$lang['deactivate_unsuccessful'] 	  	 = 'Unable to De-Activate Account';
-$lang['activation_email_successful'] 	  	 = 'Activation Email Sent';
-$lang['activation_email_unsuccessful']   	 = 'Unable to Send Activation Email';
+$lang['activate_successful'] 		  	 = 'Hesap aktive edildi';
+$lang['activate_unsuccessful'] 		 	 = 'Hesap aktive edilemedi';
+$lang['deactivate_successful'] 		  	 = 'Hesap devre dışı bırakıldı';
+$lang['deactivate_unsuccessful'] 	  	 = 'Hesap devre dışı bırakılamadı';
+$lang['activation_email_successful'] 	  	 = 'Aktivasyon maili gönderildi';
+$lang['activation_email_unsuccessful']   	 = 'Aktivasyon maili gönderilemedi';
 
 // Login / Logout
-$lang['login_successful'] 		  	 = 'Logged In Successfully';
-$lang['login_unsuccessful'] 		  	 = 'Incorrect Login';
-$lang['logout_successful'] 		 	 = 'Logged Out Successfully';
+$lang['login_successful'] 		  	 = 'Başarıyla giriş yapıldı';
+$lang['login_unsuccessful'] 		  	 = 'Hatalı giriş';
+$lang['logout_successful'] 		 	 = 'Başarıyla çıkış yapıldı';
 
 // Account Changes
-$lang['update_successful'] 		 	 = 'Account Information Successfully Updated';
-$lang['update_unsuccessful'] 		 	 = 'Unable to Update Account Information';
-$lang['delete_successful'] 		 	 = 'User Deleted';
-$lang['delete_unsuccessful'] 		 	 = 'Unable to Delete User';
+$lang['update_successful'] 		 	 = 'Hesap bilgileri başarıyla güncellendi';
+$lang['update_unsuccessful'] 		 	 = 'Hesap bilgileri başarıyla güncellenemedi';
+$lang['delete_successful'] 		 	 = 'Kullanıcı silindi';
+$lang['delete_unsuccessful'] 		 	 = 'Kullanıcı silinemedi';

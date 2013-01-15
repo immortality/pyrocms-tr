@@ -14,7 +14,8 @@ class Module_Users extends Module {
 	{
 		$info = array(
 			'name' => array(
-				'en' => 'Users',
+                'tr' => 'Kullanıcılar',
+                'en' => 'Users',
 				'ar' => 'المستخدمون',
 				'br' => 'Usuários',
 				'pt' => 'Utilizadores',
@@ -39,7 +40,8 @@ class Module_Users extends Module {
                                 'se' => 'Användare'
 			),
 			'description' => array(
-				'en' => 'Let users register and log in to the site, and manage them via the control panel.',
+                'tr' => 'Kullanıcılar sitenize kayıt olsun giriş yapsın, ve tüm bunları yönetim panelinden yönetin.',
+                'en' => 'Let users register and log in to the site, and manage them via the control panel.',
 				'ar' => 'تمكين المستخدمين من التسجيل والدخول إلى الموقع، وإدارتهم من لوحة التحكم.',
 				'br' => 'Permite com que usuários se registrem e entrem no site e também que eles sejam gerenciáveis apartir do painel de controle.',
 				'pt' => 'Permite com que os utilizadores se registem e entrem no site e também que eles sejam geriveis apartir do painel de controlo.',
