@@ -21,7 +21,7 @@ $config['supported_languages'] = array(
         'folder'    => 'turkish',
         'direction'    => 'ltr',
         'codes'        => array('tr', 'turkish', 'tr_TR'),
-        'ckeditor'    => NULL
+        'ckeditor'    => 'tr'
     ),
     'en' => array(
         'name'        => 'English',
