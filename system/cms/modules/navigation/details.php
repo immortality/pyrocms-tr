@@ -112,9 +112,9 @@ class Module_Navigation extends Module {
 		}
 
 		$groups = array(
-			array('title' => 'Üst Menü', 'abbrev' => 'ustmenu',),
-			array('title' => 'Yan Menü', 'abbrev' => 'yanmenu',),
-			array('title' => 'Alt Menü', 'abbrev' => 'altmenu',),
+			array('title' => 'Üst Menü', 'abbrev' => 'header',),
+			array('title' => 'Yan Menü', 'abbrev' => 'sidebar',),
+			array('title' => 'Alt Menü', 'abbrev' => 'footer',),
 		);
 		foreach ($groups as $group)
 		{
