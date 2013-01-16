@@ -100,18 +100,18 @@ class Module_Templates extends Module {
 		// @todo move this to the comments module
 		$this->db->insert('email_templates',array(
 			'slug' => 'comments',
-			'name' => 'Comment Notification',
-			'description' => 'Email that is sent to admin when someone creates a comment',
-			'subject' => 'You have just received a comment from {{ name }}',
-			'body' => "<h3>You have received a comment from {{ name }}</h3>
+			'name' => 'Yorum Uyarısı',
+			'description' => 'Birileri yorum yazdığında yöneticiye mail gönderir',
+			'subject' => '{{ name }} adlı kişiden bir yorum aldınız',
+			'body' => "<h3>{{ name }} adlı kişiden bir yorum aldınız</h3>
 				<p>
-				<strong>IP Address: {{ sender_ip }}</strong><br/>
-				<strong>Operating System: {{ sender_os }}<br/>
-				<strong>User Agent: {{ sender_agent }}</strong>
+				<strong>IP Adresi: {{ sender_ip }}</strong><br/>
+				<strong>İşletim Sistemi: {{ sender_os }}<br/>
+				<strong>Web Tarayıcı: {{ sender_agent }}</strong>
 				</p>
 				<p>{{ comment }}</p>
-				<p>View Comment: {{ redirect_url }}</p>",
-			'lang' => 'en',
+				<p>Yoruma Bak: {{ redirect_url }}</p>",
+			'lang' => 'tr',
 			'is_default' => 1,
 			'module' => 'comments'
 		));
@@ -119,21 +119,21 @@ class Module_Templates extends Module {
 		// @todo move this to the contact module
 		$this->db->insert('email_templates',array(
 			'slug' => 'contact',
-			'name' => 'Contact Notification',
-			'description' => 'Template for the contact form',
+			'name' => 'İletişim Uyarısı',
+			'description' => 'İletişim formu için şablon',
 			'subject' => '{{ settings:site_name }} :: {{ subject }}',
-			'body' => 'This message was sent via the contact form on with the following details:
+			'body' => 'Bu mesaj iletişim formu üzerinden gönderilmiştir:
 				<hr />
-				IP Address: {{ sender_ip }}
-				OS {{ sender_os }}
-				Agent {{ sender_agent }}
+				IP Adresi: {{ sender_ip }}
+				İşletim Sistemi {{ sender_os }}
+				Web Tarayıcı {{ sender_agent }}
 				<hr />
 				{{ message }}
 
 				{{ name }},
 
 				{{ email }}',
-			'lang' => 'en',
+			'lang' => 'tr',
 			'is_default' => 1,
 			'module' => 'pages'
 		));
@@ -141,15 +141,15 @@ class Module_Templates extends Module {
 		// @todo move this to the users module
 		$this->db->insert('email_templates',array(
 			'slug' => 'registered',
-			'name' => 'New User Registered',
-			'description' => 'Email sent to the site contact e-mail when a new user registers',
-			'subject' => '{{ settings:site_name }} :: You have just received a registration from {{ name }}',
-			'body' => '<h3>You have received a registration from {{ name }}</h3>
-				<p><strong>IP Address: {{ sender_ip }}</strong><br/>
-				<strong>Operating System: {{ sender_os }}</strong><br/>
-				<strong>User Agent: {{ sender_agent }}</strong>
+			'name' => 'Yeni Kullanıcı Kaydı',
+			'description' => 'Yeni bir kullanıcı kayıt olduğunda iletişim adresine mail gönderir',
+			'subject' => '{{ settings:site_name }} :: {{ name }} adlı kullanıcı sitenize kayıt oldu',
+			'body' => '<h3>{{ name }} adlı kullanıcı sitenize kayıt oldu</h3>
+				<p><strong>IP Adresi: {{ sender_ip }}</strong><br/>
+				<strong>İşletim Sistem: {{ sender_os }}</strong><br/>
+				<strong>Web Tarayıcı: {{ sender_agent }}</strong>
 				</p>',
-			'lang' => 'en',
+			'lang' => 'tr',
 			'is_default' => 1,
 			'module' => 'users'
 		));
@@ -157,17 +157,17 @@ class Module_Templates extends Module {
 		// @todo move this to the users module
 		$this->db->insert('email_templates',array(
 			'slug' => 'activation',
-			'name' => 'Activation Email',
-			'description' => 'The email which contains the activation code that is sent to a new user',
-			'subject' => '{{ settings:site_name }} - Account Activation',
+			'name' => 'Aktivasyon Maili',
+			'description' => 'Yeni kullanıcılara gönderilecek aktivasyon maili şablonu',
+			'subject' => '{{ settings:site_name }} - Hesap Aktivasyonu',
 			'body' => '<p>Hello {{ user:first_name }},</p>
-				<p>Thank you for registering at {{ settings:site_name }}. Before we can activate your account, please complete the registration process by clicking on the following link:</p>
+				<p>{{ settings:site_name }} sitesine kayıt olduğunuz için teşekkürler. Hesabınızı aktif etmeden önce, lütfen aşağıdaki bağlantıya tıklayarak kayıt işlemini tamamlayın:</p>
 				<p><a href="{{ url:site }}users/activate/{{ user:id }}/{{ activation_code }}">{{ url:site }}users/activate/{{ user:id }}/{{ activation_code }}</a></p>
 				<p>&nbsp;</p>
-				<p>In case your email program does not recognize the above link as, please direct your browser to the following URL and enter the activation code:</p>
+				<p>Mail istemciniz üstteki adresi bağlantı olarak algılamıyorsa, lütfen aşağıdaki adresi tarayıcınızın adres çubuğuna yapıştırın ve aktivasyon kodunu yazın:</p>
 				<p><a href="{{ url:site }}users/activate">{{ url:site }}users/activate</a></p>
-				<p><strong>Activation Code:</strong> {{ activation_code }}</p>',
-			'lang' => 'en',
+				<p><strong>Aktivasyon Kodu:</strong> {{ activation_code }}</p>',
+			'lang' => 'tr',
 			'is_default' => 1,
 			'module' => 'users'
 		));
@@ -175,13 +175,13 @@ class Module_Templates extends Module {
 		// @todo move this to the users module
 		$this->db->insert('email_templates',array(
 			'slug' => 'forgotten_password',
-			'name' => 'Forgotten Password Email',
-			'description' => 'The email that is sent containing a password reset code',
+			'name' => 'Parola Sıfırlama Maili',
+			'description' => 'Parola sıfırlamayı içeren mail şablonu',
 			'subject' => '{{ settings:site_name }} - Forgotten Password',
 			'body' => '<p>Hello {{ user:first_name }},</p>
-				<p>It seems you have requested a password reset. Please click this link to complete the reset: <a href="{{ url:site }}users/reset_pass/{{ user:forgotten_password_code }}">{{ url:site }}users/reset_pass/{{ user:forgotten_password_code }}</a></p>
-				<p>If you did not request a password reset please disregard this message. No further action is necessary.</p>',
-			'lang' => 'en',
+				<p>Parola sıfırlama talep ettiniz. Bu isteği tamamlamak için lütfen bu bağlantıya tıklayın: <a href="{{ url:site }}users/reset_pass/{{ user:forgotten_password_code }}">{{ url:site }}users/reset_pass/{{ user:forgotten_password_code }}</a></p>
+				<p>Eğer bu isteği siz yapmadıysanız bu mesajı önemsemeyin. Başka bir işlem yapmanıza gerek yoktur.</p>',
+			'lang' => 'tr',
 			'is_default' => 1,
 			'module' => 'users'
 		));
@@ -189,13 +189,13 @@ class Module_Templates extends Module {
 		// @todo move this to the users module
 		$this->db->insert('email_templates',array(
 			'slug' => 'new_password',
-			'name' => 'New Password Email',
-			'description' => 'After a password is reset this email is sent containing the new password',
-			'subject' => '{{ settings:site_name }} - New Password',
-			'body' => '<p>Hello {{ user:first_name }},</p>
-				<p>Your new password is: {{ new_password }}</p>
-				<p>After logging in you may change your password by visiting <a href="{{ url:site }}edit-profile">{{ url:site }}edit-profile</a></p>',
-			'lang' => 'en',
+			'name' => 'Yeni Parola Maili',
+			'description' => 'Parola sıfırlandıktan sonra yeni parolayı içeren mail şablonu',
+			'subject' => '{{ settings:site_name }} - Yeni Parola',
+			'body' => '<p>Merhaba {{ user:first_name }},</p>
+				<p>Yeni parolanız: {{ new_password }}</p>
+				<p>Giriş yaptıktan sonra parolanızı bu adresten değiştirebilirsiniz: <a href="{{ url:site }}edit-profile">{{ url:site }}edit-profile</a></p>',
+			'lang' => 'tr',
 			'is_default' => 1,
 			'module' => 'users'
 		));

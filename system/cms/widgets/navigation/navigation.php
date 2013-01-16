@@ -16,7 +16,8 @@ class Widget_Navigation extends Widgets
 	 * @var array
 	 */
 	public $title = array(
-		'en' => 'Navigation',
+        'tr' => 'Navigasyon',
+        'en' => 'Navigation',
 		'el' => 'Πλοήγηση',
 		'nl' => 'Navigatie',
 		'br' => 'Navegação',
@@ -33,7 +34,8 @@ class Widget_Navigation extends Widgets
 	 * @var array
 	 */
 	public $description = array(
-		'en' => 'Display a navigation group with a widget',
+        'tr' => 'Bir araç içinde navigasyon grubu gösterir',
+        'en' => 'Display a navigation group with a widget',
 		'el' => 'Προβάλετε μια ομάδα στοιχείων πλοήγησης στον ιστότοπο',
 		'nl' => 'Toon een navigatiegroep met een widget',
 		'br' => 'Exibe um grupo de links de navegação como widget em seu site',
@@ -73,7 +75,7 @@ class Widget_Navigation extends Widgets
 	public $fields = array(
 		array(
 			'field' => 'group',
-			'label' => 'Navigation group',
+			'label' => 'Navigasyon grubu',
 			'rules' => 'required'
 		)
 	);

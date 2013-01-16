@@ -95,8 +95,8 @@
 		}
 
 		$groups = array(
-			array('name' => 'admin', 'description' => 'Administrator',),
-			array('name' => 'user', 'description' => 'User',),
+			array('name' => 'yönetici', 'description' => 'Yönetici',),
+			array('name' => 'kullanıcı', 'description' => 'Kullanıcı',),
 		);
 
 		foreach ($groups as $group)

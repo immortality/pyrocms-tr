@@ -15,7 +15,8 @@ class Widget_Login extends Widgets
 	 * @var array
 	 */
 	public $title = array(
-		'en' => 'Login',
+        'tr' => 'Giriş',
+        'en' => 'Login',
 		'el' => 'Σύνδεση',
 		'nl' => 'Login',
 		'br' => 'Login',
@@ -32,7 +33,8 @@ class Widget_Login extends Widgets
 	 * @var array
 	 */
 	public $description = array(
-		'en' => 'Display a simple login form anywhere',
+        'tr' => 'Basit giriş formu gösterir',
+        'en' => 'Display a simple login form anywhere',
 		'el' => 'Προβάλετε μια απλή φόρμα σύνδεσης χρήστη οπουδήποτε',
 		'br' => 'Permite colocar um formulário de login em qualquer lugar do seu site',
 		'pt' => 'Permite colocar um formulário de login em qualquer lugar do seu site',

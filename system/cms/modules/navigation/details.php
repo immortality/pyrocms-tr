@@ -14,7 +14,8 @@ class Module_Navigation extends Module {
 	{
 		return array(
 			'name' => array(
-				'en' => 'Navigation',
+                'tr' => 'Navigasyon',
+                'en' => 'Navigation',
 				'ar' => 'الروابط',
 				'br' => 'Navegação',
 				'pt' => 'Navegação',
@@ -39,7 +40,8 @@ class Module_Navigation extends Module {
                                 'se' => 'Navigation'
 			),
 			'description' => array(
-				'en' => 'Manage links on navigation menus and all the navigation groups they belong to.',
+                'tr' => 'Navigasyon bağlantılarını yönetin ve onları gruplara atayın.',
+                'en' => 'Manage links on navigation menus and all the navigation groups they belong to.',
 				'ar' => 'إدارة روابط وقوائم ومجموعات الروابط في الموقع.',
 				'br' => 'Gerenciar links do menu de navegação e todos os grupos de navegação pertencentes a ele.',
 				'pt' => 'Gerir todos os grupos dos menus de navegação e os links de navegação pertencentes a eles.',
@@ -110,9 +112,9 @@ class Module_Navigation extends Module {
 		}
 
 		$groups = array(
-			array('title' => 'Header', 'abbrev' => 'header',),
-			array('title' => 'Sidebar', 'abbrev' => 'sidebar',),
-			array('title' => 'Footer', 'abbrev' => 'footer',),
+			array('title' => 'Üst Menü', 'abbrev' => 'ustmenu',),
+			array('title' => 'Yan Menü', 'abbrev' => 'yanmenu',),
+			array('title' => 'Alt Menü', 'abbrev' => 'altmenu',),
 		);
 		foreach ($groups as $group)
 		{
@@ -123,9 +125,9 @@ class Module_Navigation extends Module {
 		}
 
 		$links = array(
-			array('title' => 'Home', 'link_type' => 'page', 'page_id' => 1, 'navigation_group_id' => 1, 'position' => 1,),
+			array('title' => 'Anasayfa', 'link_type' => 'page', 'page_id' => 1, 'navigation_group_id' => 1, 'position' => 1,),
 			array('title' => 'Blog', 'link_type' => 'module', 'page_id' => null, 'navigation_group_id' => 1, 'position' => 2, 'module_name' => 'blog'),
-			array('title' => 'Contact', 'link_type' => 'page', 'page_id' => 3, 'navigation_group_id' => 1, 'position' => 3,),
+			array('title' => 'İletişim', 'link_type' => 'page', 'page_id' => 3, 'navigation_group_id' => 1, 'position' => 3,),
 		);
 		foreach ($links as $link)
 		{

@@ -164,7 +164,7 @@ class Module_Pages extends Module
 
 		$default_page_layout = array(
 			'id' => 1,
-			'title' => 'Default',
+			'title' => 'Varsayılan',
 			'body' => '<h2>{{ page:title }}</h2>'.PHP_EOL.'{{ page:body }}',
 			'css' => '',
 			'js' => '',
@@ -179,9 +179,9 @@ class Module_Pages extends Module
 		$default_pages = array(
 			/* The home page. */
 			array(
-				'slug' => 'home',
-				'title' => 'Home',
-				'uri' => 'home',
+				'slug' => 'anasayfa',
+				'title' => 'Anasayfa',
+				'uri' => 'anasayfa',
 				'revision_id' => 1,
 				'parent_id' => 0,
 				'layout_id' => 1,
@@ -194,7 +194,7 @@ class Module_Pages extends Module
 			/* The 404 page. */
 			array(
 				'slug' => '404',
-				'title' => 'Page missing',
+				'title' => 'Sayfa bulunamıyor',
 				'uri' => '404',
 				'revision_id' => 1,
 				'parent_id' => 0,
@@ -207,9 +207,9 @@ class Module_Pages extends Module
 			),
 			/* The contact page. */
 			array(
-				'slug' => 'contact',
-				'title' => 'Contact',
-				'uri' => 'contact',
+				'slug' => 'iletisim',
+				'title' => 'İletişim',
+				'uri' => 'iletisim',
 				'revision_id' => 1,
 				'parent_id' => 0,
 				'layout_id' => 1,
@@ -234,7 +234,7 @@ class Module_Pages extends Module
 			array(
 				'slug' => 'default',
 				'page_id' => 1,
-				'body' => '<p>Welcome to our homepage. We have not quite finished setting up our website yet, but please add us to your bookmarks and come back soon.</p>',
+				'body' => '<p>Sayfamıza hoşgeldiniz. Sayfamız henüz tamamlanmadı, fakat sitemizi sık kullanılanlar listenize ekleyin ve bizi takip edin.</p>',
 				'parsed' => '',
 				'type' => 'wysiwyg-advanced',
 				'sort' => 1,
@@ -243,7 +243,7 @@ class Module_Pages extends Module
 			array(
 				'slug' => 'default',
 				'page_id' => 2,
-				'body' => '<p>We cannot find the page you are looking for, please click <a title="Home" href="{{ pages:url id=\'1\' }}">here</a> to go to the homepage.</p>',
+				'body' => '<p>Aradadığınız sayfayı bulamadık, lütfen <a title="Home" href="{{ pages:url id=\'1\' }}">buraya tıklayarak</a> anasayfaya dönün.</p>',
 				'parsed' => '',
 				'type' => 'html',
 				'sort' => 1,
@@ -252,13 +252,13 @@ class Module_Pages extends Module
 			array(
 				'slug' => 'default',
 				'page_id' => 3,
-				'body' => '<p>To contact us please fill out the form below.</p>
-					{{ contact:form name="text|required" email="text|required|valid_email" subject="dropdown|Support|Sales|Feedback|Other" message="textarea" attachment="file|zip" }}
-						<div><label for="name">Name:</label>{{ name }}</div>
+				'body' => '<p>Bizimle iletişim kurmak için lütfen aşağıdaki formu doldurun.</p>
+					{{ contact:form name="text|required" email="text|required|valid_email" subject="dropdown|Destek|Satış|Feedback|Diğer" message="textarea" attachment="file|zip" }}
+						<div><label for="name">İsim:</label>{{ name }}</div>
 						<div><label for="email">Email:</label>{{ email }}</div>
-						<div><label for="subject">Subject:</label>{{ subject }}</div>
-						<div><label for="message">Message:</label>{{ message }}</div>
-						<div><label for="attachment">Attach  a zip file:</label>{{ attachment }}</div>
+						<div><label for="subject">Konu:</label>{{ subject }}</div>
+						<div><label for="message">Mesaj:</label>{{ message }}</div>
+						<div><label for="attachment">Zip dosyası ekle:</label>{{ attachment }}</div>
 					{{ /contact:form }}',
 				'parsed' => '',
 				'type' => 'html',

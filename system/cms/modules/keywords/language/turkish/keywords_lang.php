@@ -5,11 +5,11 @@ $lang['keywords:name']				    = 'İsim';
 
 // titles
 $lang['keywords:index_title']            = 'Anahtar Kelimeler';
-$lang['keywords:add_title']              = 'Anahtar Kelime Ekle';
+$lang['keywords:add_title']              = 'Kelime Ekle';
 $lang['keywords:edit_title']             = 'Anahtar Kelime Düzenle "%s"';
 
 // messages
-$lang['keywords:no_keywords']            = 'Hiçbir anahtar kelime bulunamadı.';
+$lang['keywords:no_keywords']            = 'Anahtar kelime bulunamadı.';
 $lang['keywords:add_success']            = 'Anahtar kelime "%s" eklendi.';
 $lang['keywords:add_error']              = 'Anahtar kelime "%s" eklenemedi.';
 $lang['keywords:edit_success']           = 'Anahtar kelime "%s" kaydedildi.';

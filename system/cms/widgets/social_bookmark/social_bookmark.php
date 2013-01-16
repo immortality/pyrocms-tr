@@ -17,7 +17,8 @@ class Widget_Social_bookmark extends Widgets
 	 * @var array
 	 */
 	public $title = array(
-		'en' => 'Social Bookmark',
+        'tr' => 'Paylaş Butonları',
+        'en' => 'Social Bookmark',
 		'el' => 'Κοινωνική δικτύωση',
 		'nl' => 'Sociale Bladwijzers',
 		'br' => 'Social Bookmark',
@@ -34,7 +35,8 @@ class Widget_Social_bookmark extends Widgets
 	 * @var array
 	 */
 	public $description = array(
-		'en' => 'Configurable social bookmark links from AddThis',
+        'tr' => 'AddThis\' den düzenlenebilir sosyal medya bağlantıları',
+        'en' => 'Configurable social bookmark links from AddThis',
 		'el' => 'Παραμετροποιήσιμα στοιχεία κοινωνικής δικτυώσης από το AddThis',
 		'nl' => 'Voeg sociale bladwijzers toe vanuit AddThis',
 		'br' => 'Adiciona links de redes sociais usando o AddThis, podendo fazer algumas configurações',
@@ -74,7 +76,7 @@ class Widget_Social_bookmark extends Widgets
 	public $fields = array(
 		array(
 			'field' => 'mode',
-			'label' => 'Mode',
+			'label' => 'Tarz',
 			'rules' => 'required'
 		)
 	);

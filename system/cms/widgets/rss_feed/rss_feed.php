@@ -16,7 +16,8 @@ class Widget_Rss_feed extends Widgets
 	 * @var array
 	 */
 	public $title = array(
-		'en' => 'RSS Feed',
+        'tr' => 'RSS Akışı',
+        'en' => 'RSS Feed',
 		'el' => 'Τροφοδοσία RSS',
 		'nl' => 'RSS Feed',
 		'br' => 'Feed RSS',
@@ -33,7 +34,8 @@ class Widget_Rss_feed extends Widgets
 	 * @var array
 	 */
 	public $description = array(
-		'en' => 'Display parsed RSS feeds on your websites',
+        'tr' => 'Websitenizde RSS akışlarını gösterir',
+        'en' => 'Display parsed RSS feeds on your websites',
 		'el' => 'Προβάλετε τα περιεχόμενα μιας τροφοδοσίας RSS',
 		'nl' => 'Toon RSS feeds op uw website',
 		'br' => 'Interpreta e exibe qualquer feed RSS no seu site',
@@ -73,12 +75,12 @@ class Widget_Rss_feed extends Widgets
 	public $fields = array(
 		array(
 			'field' => 'feed_url',
-			'label' => 'Feed URL',
+			'label' => 'Akış URL',
 			'rules' => 'prep_url|required'
 		),
 		array(
 			'field' => 'number',
-			'label' => 'Number of items',
+			'label' => 'Öğe sayısı',
 			'rules' => 'numeric'
 		)
 	);

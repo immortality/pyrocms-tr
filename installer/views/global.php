@@ -40,6 +40,11 @@
 			</div>
 			
 <ul id="lang">
+    <li>
+        <a href="<?php echo site_url('installer/change/turkish'); ?>" title="Türkçe">
+            <img src="<?php echo base_url(); ?>assets/images/flags/tr.gif" alt="Türkçe" />
+        </a>
+    </li>
 	<li>
 		<a href="<?php echo site_url('installer/change/english'); ?>" title="English">
 			<img src="<?php echo base_url(); ?>assets/images/flags/gb.gif" alt="English" />

@@ -24,7 +24,8 @@ class Widget_Html extends Widgets
 	 * @var array
 	 */
 	public $description = array(
-		'en' => 'Create blocks of custom HTML',
+        'tr' => 'Özel HTML kutucuğu oluşturur',
+        'en' => 'Create blocks of custom HTML',
 		'el' => 'Δημιουργήστε περιοχές με δικό σας κώδικα HTML',
 		'br' => 'Permite criar blocos de HTML customizados',
 		'pt' => 'Permite criar blocos de HTML customizados',

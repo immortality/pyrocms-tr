@@ -16,7 +16,8 @@ class Widget_Google_maps extends Widgets
 	 * @var array
 	 */
 	public $title = array(
-		'en' => 'Google Maps',
+        'tr' => 'Google Haritalar',
+        'en' => 'Google Maps',
 		'el' => 'Χάρτης Google',
 		'nl' => 'Google Maps',
 		'br' => 'Google Maps',
@@ -33,7 +34,8 @@ class Widget_Google_maps extends Widgets
 	 * @var array
 	 */
 	public $description = array(
-		'en' => 'Display Google Maps on your site',
+        'tr' => 'Sitenizde Google Haritaları gösterir',
+        'en' => 'Display Google Maps on your site',
 		'el' => 'Προβάλετε έναν Χάρτη Google στον ιστότοπό σας',
 		'nl' => 'Toon Google Maps in uw site',
 		'br' => 'Mostra mapas do Google no seu site',
@@ -73,27 +75,27 @@ class Widget_Google_maps extends Widgets
 	public $fields = array(
 		array(
 			'field' => 'address',
-			'label' => 'Address',
+			'label' => 'Adres',
 			'rules' => 'required'
 		),
 		array(
 			'field' => 'width',
-			'label' => 'Width',
+			'label' => 'Genişlik',
 			'rules' => 'required'
 		),
 		array(
 			'field' => 'height',
-			'label' => 'Height',
+			'label' => 'Yükseklik',
 			'rules' => 'required'
 		),
 		array(
 			'field' => 'zoom',
-			'label' => 'Zoom Level',
+			'label' => 'Yakınlaştırma',
 			'rules' => 'numeric'
 		),
 		array(
 			'field' => 'description',
-			'label' => 'Description'
+			'label' => 'Açıklama'
 		)
 	);
 

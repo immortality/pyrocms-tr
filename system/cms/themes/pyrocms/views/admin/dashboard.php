@@ -93,7 +93,7 @@ $(function($) {
 		
 		<section class="draggable title">
 			<h4><?php echo lang('comments.recent_comments') ?></h4>
-			<a class="tooltip-s toggle" title="Toggle this element"></a>
+			<a class="tooltip-s toggle" title="<?php echo lang('comments.toggle') ?>"></a>
 		</section>
 		
 		<section class="item">
@@ -120,7 +120,7 @@ $(function($) {
 		
 		<section class="draggable title">
 			<h4><?php echo lang('cp_admin_quick_links') ?></h4>
-			<a class="tooltip-s toggle" title="Toggle this element"></a>
+			<a class="tooltip-s toggle" title="<?php echo lang('comments.toggle') ?>"></a>
 		</section>
 		
 		<section id="quick_links" class="item <?php echo isset($rss_items); ?>">
@@ -161,7 +161,7 @@ $(function($) {
 		
 		<section class="draggable title">
 			<h4><?php echo lang('cp_news_feed_title'); ?></h4>
-			<a class="tooltip-s toggle" title="Toggle this element"></a>
+			<a class="tooltip-s toggle" title="<?php echo lang('comments.toggle') ?>"></a>
 		</section>
 		
 		<section class="item">

@@ -16,7 +16,8 @@ class Widget_Twitter_feed extends Widgets
 	 * @var array
 	 */
 	public $title = array(
-		'en' => 'Twitter Feed',
+        'tr' => 'Tweet Akışları',
+        'en' => 'Twitter Feed',
 		'el' => 'Ροή Twitter',
             'fr' => 'Flux Twitter',
 		'nl' => 'Twitterfeed',
@@ -33,7 +34,8 @@ class Widget_Twitter_feed extends Widgets
 	 * @var array
 	 */
 	public $description = array(
-		'en' => 'Display Twitter feeds on your website',
+        'tr' => 'Websitenizde tweetler gösterir',
+        'en' => 'Display Twitter feeds on your website',
 		'el' => 'Προβολή των τελευταίων tweets από το Twitter',
             'fr' => 'Afficher les flux Twitter sur votre site Internet',
 		'nl' => 'Toon Twitterfeeds op uw website',
@@ -73,12 +75,12 @@ class Widget_Twitter_feed extends Widgets
 	public $fields = array(
 		array(
 			'field' => 'username',
-			'label' => 'Username',
+			'label' => 'Kullanıcı Adı',
 			'rules' => 'required'
 		),
 		array(
 			'field' => 'number',
-			'label' => 'Number of tweets',
+			'label' => 'Tweet sayısı',
 			'rules' => 'numeric'
 		)
 	);

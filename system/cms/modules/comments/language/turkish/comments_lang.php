@@ -50,7 +50,8 @@ $lang['comments.unapprove_error_multiple']	= 'Seçilen yorumların onayı kaldı
 $lang['comments.delete_single_success'] 	= 'This comment #%s has been deleted and will no longer show on the live site.';
 $lang['comments.delete_multi_success'] 		= 'The comments #%s have been deleted and will no longer show on the live site.';
 
-$lang['comments.no_comments'] 				= 'There are no comments';
+$lang['comments.no_comments'] 				= 'Hiçbir yorum gönderilmemiş';
+$lang['comments.toggle'] 				    = 'Yer değiştirmek için sürükle';
 
 // Helper counter comments
 $lang['comments.counter_none_label']		= 'No comment';
