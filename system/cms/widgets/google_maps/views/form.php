@@ -1,22 +1,22 @@
 <ol>
 	<li class="even">
-		<label>Address</label>
+		<label>Adres</label>
 		<?php echo form_input('address', $options['address']); ?>
 	</li>
 	<li class="odd">
-		<label>Width</label>
+		<label>Genişlik</label>
 		<?php echo form_input('width', ($options['width'] != '' ? $options['width'] : '100%')); ?>
 	</li>
 	<li class="even">
-		<label>Height</label>
+		<label>Yükseklik</label>
 		<?php echo form_input('height', ($options['height'] != '' ? $options['height'] : '400px')); ?>
 	</li>
 	<li class="odd">
-		<label>Zoom Level</label>
+		<label>Yakınlaştırma</label>
 		<?php echo form_input('zoom', ($options['zoom'] != '' ? $options['zoom'] : '16')); ?>
 	</li>
 	<li class="even">
-		<label>Description (optional)</label>
+		<label>Açıklama(opsiyonel)</label>
 		<?php echo form_textarea('description', $options['description']); ?>
 	</li>
 </ol>

@@ -1,6 +1,6 @@
 <ul>
 	<li class="even">
-		<label>Navigation group</label>
+		<label>Navigasyon grubu</label>
 		<?php echo form_dropdown('group', $groups, $options['group']); ?>
 	</li>
 </ul>
