@@ -37,7 +37,7 @@ class Module_Widgets extends Module {
                                 'se' => 'Widgetar'
 			),
 			'description' => array(
-                'tr' => 'Araçları yönetin sitenizde bloklar halinde düzenleyin".',
+                'tr' => 'Araçları yönetin sitenizde bloklar halinde düzenleyin.',
                 'en' => 'Manage small sections of self-contained logic in blocks or "Widgets".',
 				'ar' => 'إدارة أقسام صغيرة من البرمجيات في مساحات الموقع أو ما يُسمّى بالـ"وِدْجِتْ".',
 				'br' => 'Gerenciar pequenas seções de conteúdos em bloco conhecidos como "Widgets".',

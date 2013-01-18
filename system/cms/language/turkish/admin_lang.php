@@ -39,7 +39,7 @@ $lang['cp_nav_utilities']				= 'Hizmetler';
 
 $lang['cp_must_login']	 				= 'Bu sayfayı görebilmek için giriş yapmalısınız.';
 $lang['cp_access_denied'] 				= 'Bu sayfayı görebilmek için yetkiniz yok.';
-$lang['cp_delete_installer_message']	= 'Lütfen sunucu nuzdan installer klasörünü silin. Bu dosyanın var olması sitenizin başka kullanıcıların eline geçebileceği anlamına gelir.';
+$lang['cp_delete_installer_message']	= 'Lütfen sunucunuzdan installer klasörünü silin. Bu dosyanın var olması sitenizin başka kullanıcıların eline geçebileceği anlamına gelir.';
 $lang['cp_upgrade_message']				= 'Şuanda kullandığınız versiyon %s, fakat veritabanı versiyonu %s. Lütfen <a href="%s" title="Upgrade">buraya</a> tıklayarak veritabanını yükseltin.';
 $lang['cp_google_analytics_missing']	= 'Google Analytics ayarları eksik. Buraya ekleyin %s veya yöneticinizle irtibata geçin.';
 $lang['cp_google_analytics_no_connect']	= 'Google Analytics\'e bağlanılamadı. Kontrol edin %s.';
