@@ -47,15 +47,15 @@ $lang['comments.unapprove_success_multiple'] = 'Seçilen yorumların onayı kald
 $lang['comments.unapprove_error'] 			= 'Bu yorumun onayı kaldırılırken bir sorun oluştu. Silmek işe yarayabilir?';
 $lang['comments.unapprove_error_multiple']	= 'Seçilen yorumların onayı kaldırılırken bir sorun oluştu. Silmek işe yarayabilir?';
 
-$lang['comments.delete_single_success'] 	= 'This comment #%s has been deleted and will no longer show on the live site.';
-$lang['comments.delete_multi_success'] 		= 'The comments #%s have been deleted and will no longer show on the live site.';
+$lang['comments.delete_single_success'] 	= '#%s yorumu silinmiştir, artık sitede görüntülenmeyecek.';
+$lang['comments.delete_multi_success'] 		= '#%s yorumlar silinmiştir, artık sitede görüntülenmeyecek.';
 
 $lang['comments.no_comments'] 				= 'Hiçbir yorum gönderilmemiş';
 $lang['comments.toggle'] 				    = 'Yer değiştirmek için sürükle';
 
 // Helper counter comments
-$lang['comments.counter_none_label']		= 'No comment';
-$lang['comments.counter_singular_label']	= '%d comment';
-$lang['comments.counter_plural_label']		= '%d comments';
+$lang['comments.counter_none_label']		= 'Yorum yok';
+$lang['comments.counter_singular_label']	= '%d yorum';
+$lang['comments.counter_plural_label']		= '%d yorumlar';
 
 /* End of file comments_lang.php */
